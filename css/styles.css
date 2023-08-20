@@ -62,7 +62,7 @@ font-style: normal;
     color: #404bbf;
 }
 .container { 
-max-width: 1440px;
+max-width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto; 
@@ -108,7 +108,7 @@ ul, li {
     display: flex;
     gap: 40px;
     margin-top: 24px;
-    margin-left: 156px;
+    margin-right: 156px;
 }
 .container-list .social-links {
     display: flex;
