@@ -113,6 +113,7 @@ ul, li {
 .container-list .social-links {
     display: flex;
     margin-left: 76px;
+    margin-right: 332px;
 
   gap: 40px;
 }
