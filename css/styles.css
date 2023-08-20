@@ -45,9 +45,6 @@ li {
     letter-spacing: 0.32px;
 }
 
-.contakt {
-font-style: normal;
-}
 
 .contakt .contakt-link {
     font-size: 16px;
@@ -84,39 +81,52 @@ ul, li {
     padding-left: 0;
 }
 
-.container-header {
+.container-header,
+.navigation-header {
     display: flex;
-    border-bottom: 1px solid;
+margin-top: 24px;
+    margin-bottom: 24px;
+    /*border-bottom: 1px solid;*/
     /*justify-content: space-between;*/
     
 }
-/*.social-links {
+.link-start {
+    margin-left: 156px;
+    margin-right: 76px;
+}
+.social-links {
     display: flex;
     gap: 40px;
-    margin-left: 0;
-    margin-right: 332px;
-    
-    
-}*/
-.container-header .navigation-header {
-    display: flex;
-    margin-top: 24px; 
-    margin-left: 156px;
-
 }
-.contakt .contakt-inf {
+.text-studio:last-child{
+    margin-right: 0;
+}
+
+.contakt-inf {
     display: flex;
     gap: 40px;
     margin-top: 24px;
+    margin-left: 332px;
     margin-right: 156px;
 }
-.container-list .social-links {
+
+.contakt-list {
+    flex-shrink: 0;
+
+    
+   /* margin-right: 156px;
+    margin-left: 332px;*/
+}
+.contakt-list:last-child{
+    margin-right: 0;
+}
+/*.container-list .social-links {
     display: flex;
     margin-left: 76px;
     margin-right: 332px;
 
   gap: 40px;
-}
+}*/
 
 .hero {
     background-color: #2E2F42;
