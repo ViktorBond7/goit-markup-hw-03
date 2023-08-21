@@ -85,10 +85,6 @@ ul, li {
     display: flex;
 margin-top: 24px;
     margin-bottom: 24px;
-   
-    /*border-bottom: 1px solid;*/
-    /*justify-content: space-between;*/
-    
 }
 .link-start {
     margin-left: 0;
@@ -122,13 +118,6 @@ margin-top: 24px;
 .contakt-list:last-child{
     margin-right: 0;
 }
-/*.container-list .social-links {
-    display: flex;
-    margin-left: 76px;
-    margin-right: 332px;
-
-  gap: 40px;
-}*/
 
 
 /*section1*/
