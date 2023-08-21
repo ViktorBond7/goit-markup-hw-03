@@ -5,10 +5,7 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.container {
-    margin: 0;
-    padding: 0;
-}
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -80,11 +77,13 @@ ul, li {
     margin-bottom: 0;
     padding-left: 0;
 }
-
+.top-header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .container-header, .navigation-header {
     display: flex;
-margin-top: 24px;
-    margin-bottom: 24px;
+    padding: 24px 0;
+    align-items: center;
 }
 .link-start {
     margin-left: 0;
@@ -103,7 +102,7 @@ margin-top: 24px;
 .contakt-inf {
     display: flex;
     gap: 40px;
-    margin-top: 24px;
+   
     margin-left: 332px;
     /*margin-right: 156px;*/
 }
@@ -124,6 +123,7 @@ margin-top: 24px;
 .hero {
     background-color: #2E2F42;
     text-align: center;
+    padding: 188px 0 188px;
 }
 .hero-title {
     color: #FFF;
@@ -131,6 +131,7 @@ margin-top: 24px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    max-width: 496px;
 }
 .link-button {
     background-color: #4D5AE5;
@@ -167,6 +168,10 @@ width: 496px;
 }
 .link-button {
     margin-top: 48px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 
 }
 
@@ -227,8 +232,11 @@ width: 264px;
 }
 .page-our-img {
     background-color: #FFFFFF;
+   
 }
-
+.images-photo {
+    border-radius: 0px 0px 4px 4px;
+}
 .images-acon {
     display: flex;
     gap: 24px;
@@ -241,8 +249,9 @@ width: 264px;
     padding: 32px 0;
     text-align: center;
 }
-
-
+.page-img {
+    margin-bottom: 8px;
+}
 /*section4*/
 .text-portfolio {
     font-size: 16px;
@@ -264,12 +273,14 @@ width: 264px;
 
 }
 .page-icon-app {
-    padding: 32px 0;
-}
-.section-portfolio {
-    border-bottom: 1px solid var(--cornflower, #E7E9FC)
+   padding: 32px 16px;
+border: 1px solid #e7e9fc;
 }
 
+.container-app {
+   /* padding: 32px 16px;
+        border: 1px solid #e7e9fc;*/
+}
 /*footer*/
 .basement {
     background-color: #2E2F42;
@@ -307,7 +318,7 @@ padding: 100px 0;
    flex-wrap: wrap;
    width: 264px;
    /*margin-left: 156px;*/
-   margin-top: 16px;
+   
    margin-bottom: 100px;
    
 }
@@ -315,4 +326,6 @@ padding: 100px 0;
 
    /* margin-left: 156px;*/
    margin-top: 100px;
+   display: inline-block;
+    margin-bottom: 16px;
 }
