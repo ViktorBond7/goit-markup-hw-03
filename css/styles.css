@@ -79,10 +79,12 @@ ul, li {
 }
 .top-header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px 0 15px;
+    
 }
 .container-header, .navigation-header {
     display: flex;
-    padding: 24px 0;
+   
     align-items: center;
 }
 .link-start {
@@ -94,6 +96,7 @@ ul, li {
 .social-links {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .text-studio:last-child{
     margin-right: 0;
@@ -192,10 +195,22 @@ width: 496px;
 }
 
 
-.page-strategy {
+/*.page-strategy {
     display: none;
+    
+}*/
+.title-sect {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-
 .list-names {
     display: flex;
     gap: 24px;
@@ -232,10 +247,10 @@ width: 264px;
 }
 .page-our-img {
     background-color: #FFFFFF;
-   
+    border-radius: 0px 0px 4px 4px;
 }
 .images-photo {
-    border-radius: 0px 0px 4px 4px;
+    
 }
 .images-acon {
     display: flex;
@@ -274,12 +289,13 @@ width: 264px;
 }
 .page-icon-app {
    padding: 32px 16px;
-border: 1px solid #e7e9fc;
+   border: 1px solid #e7e9fc;
+   border-top: none;
 }
 
 .container-app {
    /* padding: 32px 16px;
-        border: 1px solid #e7e9fc;*/
+    border: 1px solid #e7e9fc;*/
 }
 /*footer*/
 .basement {
