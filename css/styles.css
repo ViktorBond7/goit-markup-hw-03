@@ -101,7 +101,8 @@ ul {
 .text-studio:last-child{
     margin-right: 0;
 }
-.text-studio {
+.text-studio .social-links-link {
+    display: flex;
     padding: 24px 0 24px;
 }
 
