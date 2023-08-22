@@ -96,10 +96,13 @@ ul, li {
 .social-links {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 .text-studio:last-child{
     margin-right: 0;
+}
+.text-studio {
+    padding: 24px 0;
 }
 
 .contakt-inf {
@@ -110,13 +113,6 @@ ul, li {
     /*margin-right: 156px;*/
 }
 
-.contakt-list {
-   /* flex-shrink: 0;*/
-
-    
-   /* margin-right: 156px;
-    margin-left: 332px;*/
-}
 .contakt-list:last-child{
     margin-right: 0;
 }
@@ -199,7 +195,7 @@ width: 496px;
     display: none;
     
 }*/
-.title-sect {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -213,18 +209,11 @@ width: 496px;
 }
 .list-names {
     display: flex;
-    gap: 24px;
-    /*margin-left: 156px;*/
-/*flex-basis: calc((100%-72px)/4);*/
-       
-      
+    gap: 24px; 
 }
 .list-strategy {
     width: 264px;
-
 }
-
-
 
 /*section3*/
 .title-sect {
@@ -293,10 +282,7 @@ width: 496px;
    border-top: none;
 }
 
-.container-app {
-   /* padding: 32px 16px;
-    border: 1px solid #e7e9fc;*/
-}
+
 /*footer*/
 .basement {
     background-color: #2E2F42;
