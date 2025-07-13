@@ -42,8 +42,11 @@ button {
   cursor: pointer;
 }
 
-/* common */
+img {
+  display: block;
+}
 
+/* common */
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -90,16 +93,15 @@ button {
   padding: 24px 0;
   margin-right: 76px;
 }
+
 .logo-part-header {
   color: var(--primary-accent-color);
-  /* color: currentColor; */
 }
 
 .header-nav-link {
   font-weight: 500;
   line-height: 1.5;
   padding: 24px 0;
-  /* color: currentColor; */
   color: var(--primary-accent-color);
 }
 
@@ -131,17 +133,10 @@ button {
 }
 
 /* hero */
-
-/* .container-hero {
-  gap: ;
-} */
 .section-hero {
   background-color: var(--second-background-color);
   padding: 188px 0 188px;
 }
-
-/* .container-hero {
-} */
 
 .title-hero {
   font-weight: 700;
@@ -165,7 +160,6 @@ button {
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
-  /* padding: 16px 32px; */
   width: 169px;
   height: 56px;
   border: none;
@@ -178,6 +172,20 @@ button {
 }
 
 /* section-2 advantages */
+.title-advantages-none {
+  display: none;
+}
+
+.advantages-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.advantages-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .title-advantages {
   font-weight: 500;
   font-size: 20px;
@@ -203,16 +211,36 @@ button {
   background-color: #f4f4fd;
 }
 
+.our-team-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 72px;
+}
+
+.item-our-team {
+  max-width: calc((100% - 72px) / 4);
+}
+
+.our-team-title-under-img {
+  align-items: center;
+  padding: 32px 0;
+  justify-content: center;
+  gap: 8px;
+}
+
 .title-our-team {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-transform: capitalize;
   color: var(--primary-accent-color);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .page-our-team {
   line-height: 1.5;
+  text-align: center;
 }
 
 .item-our-team {
@@ -226,6 +254,26 @@ button {
   line-height: 1.2;
   text-transform: capitalize;
   color: var(--primary-accent-color);
+  margin-bottom: 8px;
+}
+
+.our-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  margin-top: 72px;
+}
+
+.portfolio-item {
+  max-width: calc((100% - 32px) / 3);
+}
+
+.container-title-portfolio {
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 
 .page-portfolio {
@@ -237,9 +285,15 @@ button {
   background-color: var(--second-background-color);
 }
 
+.container-basement {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
 .page-basement {
   line-height: 1.5;
   color: #f4f4fd;
+  max-width: 264px;
+  margin-top: 16px;
 }
 
 .logo-part-basement {
